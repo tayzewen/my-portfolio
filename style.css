@@ -342,16 +342,11 @@ nav h2 {
     flex-wrap: wrap;
     /* justify-content: space-around; */
     margin: 2rem 1rem;
-}
-
-.proj-column {
-    flex: 33%;
-    max-width: 33%;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .proj-element {
-    height: 50%;
+    width: 33%;
 }
 
 .proj-element img:hover {
