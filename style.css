@@ -354,6 +354,11 @@ nav h2 {
     height: 50%;
 }
 
+.proj-element img:hover {
+    transform: translateX(-4px) translateY(-4px);
+    box-shadow: 4px 4px 8px var(--box-shadow-color);
+}
+
 .proj-element p {
     width: 90%;
     margin-top: .2rem;
