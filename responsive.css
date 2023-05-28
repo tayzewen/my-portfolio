@@ -6,6 +6,10 @@
         padding: 2rem 0;
     }
 
+    #projects {
+        padding-bottom: 0;
+    }
+
     .col-one, .col-two {
         width: 100%;
         padding-bottom: 1rem;
@@ -17,6 +21,10 @@
 
     .col-three {
         width: fit-content;
+    }
+
+    #projects-link {
+        margin-bottom: 2rem;
     }
 
     #about-div {
@@ -41,6 +49,10 @@
 
     .proj-element {
         width: 100%;
+    }
+
+    .proj-element img {
+        height: auto;
     }
 
     .proj-element p {
@@ -110,8 +122,15 @@
 }
 
 /* XL Screens */
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
 
+}
+
+/* XXL Screens */
+@media screen and (min-width: 1301px) {
+    .page-container {
+        min-height: 85vh;
+    }
 }
 
 /* Mobile & Tables (Navigation) */
