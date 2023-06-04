@@ -150,11 +150,11 @@ nav h2 {
 }
 
 .main-line1 {
-    animation: right_to_left 1s ease;
+    animation: right_to_left 1s ease-in-out;
 }
 
 .main-line2 {
-    animation: left_to_right 1s ease;
+    animation: left_to_right 1s ease-in-out;
 }
 
 #fname {
@@ -174,7 +174,7 @@ nav h2 {
     font-size: 2rem;
     line-height: 1.5rem;
     letter-spacing: 8px;
-    animation: fade-in 1s;
+    animation: fade-in 1s ease-in-out;
 }
 
 .col-two {
@@ -183,7 +183,7 @@ nav h2 {
 
 .col-two img {
     width: 100%;
-    animation: fade-in 2s;
+    animation: fade-in 2s ease-in-out;
 }
 
 .col-three {
